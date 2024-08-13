@@ -1,0 +1,17 @@
+{
+  "requests": [
+    {
+      "features": [
+        {
+          "maxResults": 10,
+          "type": "FACE_DETECTION"
+        }
+      ],
+      "image": {
+        "source": {
+          "imageUri": "gs://cloud-samples-data/vision/face/faces.jpeg"
+        }
+      }
+    }
+  ]
+}

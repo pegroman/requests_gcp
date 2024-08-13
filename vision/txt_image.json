@@ -1,0 +1,19 @@
+{
+  "requests": [
+    {
+      "image": {
+        "source": {
+          "imageUri": "IMAGE_URL"
+        }
+      },
+      "features": [
+        {
+          "type": "DOCUMENT_TEXT_DETECTION"
+        }
+      ],
+      "imageContext": {
+        "languageHints": ["en-t-i0-handwrit"]
+      }
+    }
+  ]
+}

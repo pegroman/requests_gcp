@@ -1,0 +1,17 @@
+{
+  "requests": [
+      {
+        "image": {
+          "source": {
+              "gcsImageUri": "gs://aju-dev-demos-codelabs/images/french_sign.png" 
+          } 
+        },
+        "features": [
+          {
+            "type": "LABEL_DETECTION",
+            "maxResults": 4
+          }
+        ]
+      }
+  ]
+}
